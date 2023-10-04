@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Hoteles de playa</title>
+        <link rel="icon" type="image/jpg" href="imagenes/iconoo.png"/>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header class="hover">
+            <nav class="nav"> <!-- Etiqueta que indica al navegador que es un menu-->
+                <a href="index.html" class="logo nav-link">Hoteles</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Ubicaciones.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="condovac1.html">Condovac</a><i class="fa-solid fa-hotel"></i></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="margarita2.html">Margarita Beach</a><i class="fa-solid fa-hotel"></i></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="occidental3.html">Occidental Tamarindo</a><i class="fa-solid fa-hotel"></i></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="barcelo4.html">Barceló Tambor</a><i class="fa-solid fa-hotel"></i></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Sitios_Web.html">Sitios Web</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Ubicaciones.html">Ubicaciones</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Registro.html">Registro</a></li>
+
+                </ul>
+            </nav>
+
+
+
+            <section>
+                <h2>Registro de Usuario</h2>  
+                <!--Este es un formulario -->
+                <!---->
+                <form action="/usuario/registro"
+                      method="post">
+                    <table border="0">
+                        <tbody>
+                            <tr>
+                                <th>Usuario</th>
+                                <th><input type="email" 
+                                           placeholder="correo@correo.com"
+                                           required
+                                           name="usuario" value="" size="25" /></th>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td><input type="text" 
+                                           required
+                                           name="nombre" value="" size="45" /></td>
+                            </tr>
+                            <tr>
+                                <td>Clave</td>
+                                <td><input type="password"
+                                           required
+                                           name="clave" value="" size="10" /></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>Telefono</td>
+                                <td><input type="number"
+                                           required
+
+                                           name="Tel" value="" /></td>
+                            </tr>
+                            <tr>
+                                <td>Edad</td>
+                                <td><input type="number" 
+                                           required
+                                           min="18"
+                                           max="25"
+                                           name="edad" value="" /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Registro" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>    
+            </section>
+
+
+            <footer id="piePagina">Derechos reservados &COPY; 2023</footer><
+
+    </body>
+</html>
